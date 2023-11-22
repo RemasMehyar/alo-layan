@@ -1,0 +1,52 @@
+body {
+  background-color: #c0d4b3;
+  color: #3e2e28;
+  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+  background-color: #5c7858;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height:40px;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items:center;
+}
+
+nav li {
+  float: left;
+}
+nav img {
+    margin-inline-start:100px;
+}
+nav a {
+  display: block;
+  color: #1e4504;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #c0d4b3;
+  color: #3e2e28;
+}
+.content {
+    padding-top: 100px; /* Adjust this value based on the height of your navigation bar */
+}
